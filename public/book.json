@@ -1,80 +1,107 @@
 [
-  {
-    "bookId": "B001",
-    "bookName": "Atomic Habits",
-    "author": "James Clear",
-    "image": "https://m.media-amazon.com/images/I/91bYsX41DVL.jpg",
-    "review": "Practical and proven strategies to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.",
-    "totalPages": 320,
-    "rating": 4.8,
-    "category": "Self-Help",
-    "tags": ["Productivity", "Behavioral Science"],
-    "publisher": "Penguin Random House",
-    "yearOfPublishing": 2018
-  },
-  {
-    "bookId": "B002",
-    "bookName": "The Alchemist",
-    "author": "Paulo Coelho",
-    "image": "https://m.media-amazon.com/images/I/71aFt4+OTOL.jpg",
-    "review": "A journey of self-discovery filled with symbolism, inspiration, and timeless wisdom that continues to touch readers’ hearts.",
-    "totalPages": 208,
-    "rating": 4.6,
-    "category": "Fiction",
-    "tags": ["Adventure", "Spiritual"],
-    "publisher": "HarperOne",
-    "yearOfPublishing": 1988
-  },
-  {
-    "bookId": "B003",
-    "bookName": "Sapiens: A Brief History of Humankind",
-    "author": "Yuval Noah Harari",
-    "image": "https://m.media-amazon.com/images/I/713jIoMO3UL.jpg",
-    "review": "Explores how Homo sapiens came to dominate the Earth and how our past continues to shape our present and future.",
-    "totalPages": 443,
-    "rating": 4.7,
-    "category": "History",
-    "tags": ["Anthropology", "Evolution", "Society"],
-    "publisher": "Harper",
-    "yearOfPublishing": 2011
-  },
-  {
-    "bookId": "B004",
-    "bookName": "1984",
-    "author": "George Orwell",
-    "image": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg",
-    "review": "A gripping dystopian novel warning against totalitarianism, loss of privacy, and the manipulation of truth.",
-    "totalPages": 328,
-    "rating": 4.5,
-    "category": "Dystopian Fiction",
-    "tags": ["Politics", "Surveillance", "Totalitarianism"],
-    "publisher": "Secker & Warburg",
-    "yearOfPublishing": 1949
-  },
-  {
-    "bookId": "B005",
-    "bookName": "The Psychology of Money",
-    "author": "Morgan Housel",
-    "image": "https://m.media-amazon.com/images/I/61-hMfd7NGL.jpg",
-    "review": "Insights into how emotions and behavior influence financial decisions more than logic or analysis.",
-    "totalPages": 252,
-    "rating": 4.6,
-    "category": "Finance",
-    "tags": ["Behavioral Economics", "Personal Finance"],
-    "publisher": "Harriman House",
-    "yearOfPublishing": 2020
-  },
-  {
-    "bookId": "B006",
-    "bookName": "Gone Girl",
-    "author": "Gillian Flynn",
-    "image": "https://m.media-amazon.com/images/I/81af+MCATTL.jpg",
-    "review": "A thrilling psychological mystery about a marriage gone terribly wrong, full of dark secrets and unexpected twists.",
-    "totalPages": 432,
-    "rating": 4.3,
-    "category": "Thriller",
-    "tags": ["Suspense", "Psychological", "Mystery"],
-    "publisher": "Crown Publishing Group",
-    "yearOfPublishing": 2012
-  }
+    {
+        "bookId": "B001",
+        "bookName": "Atomic Habits",
+        "author": "James Clear",
+        "image": "https://m.media-amazon.com/images/I/91bYsX41DVL.jpg",
+        "review": "Practical and proven strategies to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.",
+        "totalPages": 320,
+        "rating": 4.8,
+        "category": "Self-Help",
+        "tags": [
+            "Productivity",
+            "Behavioral Science"
+        ],
+        "publisher": "Penguin Random House",
+        "yearOfPublishing": 2018,
+        "status": "popular"
+    },
+    {
+        "bookId": "B002",
+        "bookName": "The Alchemist",
+        "author": "Paulo Coelho",
+        "image": "https://m.media-amazon.com/images/I/71aFt4+OTOL.jpg",
+        "review": "A journey of self-discovery filled with symbolism, inspiration, and timeless wisdom that continues to touch readers’ hearts.",
+        "totalPages": 208,
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": [
+            "Adventure",
+            "Spiritual"
+        ],
+        "publisher": "HarperOne",
+        "yearOfPublishing": 1988,
+        "status": "popular"
+    },
+    {
+        "bookId": "B003",
+        "bookName": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "image": "https://m.media-amazon.com/images/I/713jIoMO3UL.jpg",
+        "review": "Explores how Homo sapiens came to dominate the Earth and how our past continues to shape our present and future.",
+        "totalPages": 443,
+        "rating": 4.7,
+        "category": "History",
+        "tags": [
+            "Anthropology",
+            "Evolution",
+            "Society"
+        ],
+        "publisher": "Harper",
+        "yearOfPublishing": 2011,
+        "status": "popular"
+    },
+    {
+        "bookId": "B004",
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg",
+        "review": "A gripping dystopian novel warning against totalitarianism, loss of privacy, and the manipulation of truth.",
+        "totalPages": 328,
+        "rating": 4.5,
+        "category": "Dystopian Fiction",
+        "tags": [
+            "Politics",
+            "Surveillance",
+            "Totalitarianism"
+        ],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949,
+        "status": "normal"
+    },
+    {
+        "bookId": "B005",
+        "bookName": "The Psychology of Money",
+        "author": "Morgan Housel",
+        "image": "https://m.media-amazon.com/images/I/61-hMfd7NGL.jpg",
+        "review": "Insights into how emotions and behavior influence financial decisions more than logic or analysis.",
+        "totalPages": 252,
+        "rating": 4.6,
+        "category": "Finance",
+        "tags": [
+            "Behavioral Economics",
+            "Personal Finance"
+        ],
+        "publisher": "Harriman House",
+        "yearOfPublishing": 2020,
+        "status": "normal"
+    },
+    {
+        "bookId": "B006",
+        "bookName": "Gone Girl",
+        "author": "Gillian Flynn",
+        "image": "https://m.media-amazon.com/images/I/81af+MCATTL.jpg",
+        "review": "A thrilling psychological mystery about a marriage gone terribly wrong, full of dark secrets and unexpected twists.",
+        "totalPages": 432,
+        "rating": 4.3,
+        "category": "Thriller",
+        "tags": [
+            "Suspense",
+            "Psychological",
+            "Mystery"
+        ],
+        "publisher": "Crown Publishing Group",
+        "yearOfPublishing": 2012,
+        "status": "normal"
+    }
 ]

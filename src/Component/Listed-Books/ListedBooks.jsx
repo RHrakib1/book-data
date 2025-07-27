@@ -23,6 +23,16 @@ export default function ListedBooks() {
   return (
     <div>
       <h1>asse agula : {storedata.length}</h1>
+      <div className='flex items-center justify-center'>
+        <div className="dropdown dropdown-hover ">
+          <div tabIndex={0} role="button" className="btn m-1">Hover</div>
+          <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+            <li><a>All</a></li>
+            <li><a>Normal</a></li>
+            <li><a>Popular</a></li>
+          </ul>
+        </div>
+      </div>
       {
         storedata.map(data => <Booklis data={data}></Booklis>)
       }
