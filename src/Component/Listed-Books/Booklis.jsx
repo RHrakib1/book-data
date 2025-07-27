@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Booklis({ data }) {
-    const { image, bookName, category, review, totalPages, publisher } = data
+    const { image, bookName, category, review, totalPages, publisher, status } = data
     return (
         <div>
             <section className="p-4 lg:p-8 dark:bg-gray-100 dark:text-gray-800">
@@ -15,7 +15,9 @@ export default function Booklis({ data }) {
                             <div className='flex justify-between'>
                                 <p><span className='font-bold'>Total Pages:</span> {totalPages}</p>
                                 <p><span className='font-bold'>Publisher:</span> {publisher}</p>
+                                
                             </div>
+                            <h1><span className='font-bold'>Status:</span> {status}</h1>
                             <button type="button" className="self-start">Action</button>
                         </div>
                     </div>
